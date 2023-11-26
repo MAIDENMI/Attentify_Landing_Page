@@ -260,17 +260,29 @@ section{
 
 
 
+.install {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4; /* Set a background color for the specific part */
 
-.install-button {
+            text-align: center;
+        }
+
+        .install-button {
             display: inline-block;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
             color: #fff;
             background-color: #4CAF50;
-            border: none;
-            border-radius: 5px;
+            border: 2px solid #388e3c; /* Border color */
+            border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         .install-button:hover {
