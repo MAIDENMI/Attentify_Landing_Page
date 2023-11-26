@@ -260,6 +260,23 @@ section{
 
 
 
+
+.install a {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff; /* Text color */
+            background-color: #4CAF50; /* Green color */
+            border-radius: 5px;
+        }
+
+        .install a:hover {
+            background-color: #45a049; /* Darker green color on hover */
+        }
+
+
+
+
 .contact .wrapper{
     display: flex;
     align-items: center;
