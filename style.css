@@ -261,19 +261,21 @@ section{
 
 
 
-.install a {
+.install-button {
             display: inline-block;
             padding: 10px 20px;
             text-decoration: none;
-            color: #fff; /* Text color */
-            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
             border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
         }
 
-.install a:hover {
-            background-color: #45a049; /* Darker green color on hover */
+        .install-button:hover {
+            background-color: #45a049;
         }
-
 
 
 
