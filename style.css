@@ -259,34 +259,32 @@ section{
 
 
 
-
-.install {
+ .install {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
             margin: 0;
             background-color: #f4f4f4; /* Set a background color for the specific part */
-
             text-align: center;
         }
 
-        .install-button {
+.install-button {
             display: inline-block;
-            padding: 40px 60px;
+            padding: 30px 60px; /* Adjusted padding for a larger button */
             text-decoration: none;
             color: #fff;
             background-color: #4CAF50;
-            border: 2px solid #388e3c; /* Border color */
-            border-radius: 8px;
+            border: 3px solid #388e3c; /* Adjusted border size */
+            border-radius: 10px;
             cursor: pointer;
             transition: background-color 0.3s;
-            font-size: 50px;
+            font-size: 24px; /* Adjusted font size */
             font-weight: bold;
-            margin-bottom: 10px;
+            margin-bottom: 30px; /* Adjusted margin at the bottom */
         }
 
-        .install-button:hover {
+.install-button:hover {
             background-color: #45a049;
         }
 
